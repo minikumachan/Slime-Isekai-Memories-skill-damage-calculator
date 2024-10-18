@@ -1,0 +1,37 @@
+/* 初期状態：スリムメニュー */
+.sidebar-compact {
+  width: 50px;
+  background-color: #333;
+  transition: width 0.3s;
+}
+
+/* 展開時のメニュー */
+.sidebar-expanded {
+  width: 250px;
+}
+
+/* メニュー項目のスタイル */
+.menu-items {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.menu-items li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+  display: block;
+}
+
+/* コンテンツエリア */
+.content {
+  margin-left: 60px;
+  padding: 20px;
+  color: #fff;
+}
+
+body {
+  background-color: #1e1e1e;
+  font-family: Arial, sans-serif;
+}
